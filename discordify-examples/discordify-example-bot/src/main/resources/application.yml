@@ -1,0 +1,13 @@
+discordify:
+  jda:
+    token: ${DISCORDIFY_TEST_TOKEN}
+    gateway-intents:
+      - guild_presences
+    online-status: do_not_disturb
+    cache-flags:
+      - forum_tags
+      - activity
+    activity:
+      type: streaming
+      value: 'Grand Theft Auto VI'
+      url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
